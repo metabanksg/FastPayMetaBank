@@ -1,6 +1,6 @@
 var router = artifacts.require('./FastPayMetabank.sol')
 
-const own = 'TNEu7Qyq3TcMFRQNzzuqvFvExG9sDnDp7o'
+const own = 'TLuDrGSmc5rbo6HhZ9ufodZ9qM9ukRnKdQ'
 
 module.exports = function (deployer, network) {
   deployer.deploy(router, own)
